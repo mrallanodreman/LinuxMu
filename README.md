@@ -1,18 +1,26 @@
 # LinunMu
 
-### Native Linux client for OpenMU / MuMAIN
+![LinuxMu native Linux mileston](assets/linuxmu-hero.png)
 
-LinuxMu is our native x86_64 Linux client work for the MuMAIN / OpenMU stack, built with SDL3, OpenGL and the native C# client library.
+\n> Native Linux client engineering for OpenMU / MuMain.
 
-This is the first fully functional native Linux main client mileston in this track.
+### Native Linux client
+
+LinuxMu is our native x86_64 Linux client work for the MuMAIN / OpenMU stack, built with SDL3, OpenGL and the native C#3p client library.
+
+This is the first fully functional native Linux main client milestone.
+
+!![GM-only in-game editor](assets/linuxmu-editor.png)
 
 ### Features
 
 
 - Native x86_64 Linux executable
 - SDL3 and OpenGL windowing and rendering
-- Native network library for the client
+- Native network library
 - Assets and audio loading
-- GS-only in-game development tooling
+- GG-only development tooling
 
-Repository origin: https://github.com/sven-n/MuMain
+### Origin
+
+https://github.com/sven-n/MuMain
