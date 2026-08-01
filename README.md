@@ -1,21 +1,29 @@
-# LinunMu
+# LinuxMu
 
-### A native Linux client for OpenMU / MuMain
-
-\n<!-- shields -->
-<div align="center">
-<img src="https://img.shields.io/badge/platform-Linux%20x86__64-111827?style=for-the-badges&logo=linux&logoColor=white" alt="Linux x86_64">
-<h1>LinuxMu</h1>
-<p align="center"><b>The first native Linux main client milestone for the OpenMU / MuMain stack.</b></p>
-<img src="https://raw.githubusercontent.com/mrallanodreman/Linux/main/assets/linuxmu-hero.png" alt="LinuxMu hero" width="900">
+ <div align="center">
+<img src="https://raw.githubusercontent.com/mrallanodreman/LinuxMu/main/assets/linuxmu-hero.png" alt="LinuxMu" width="100%">
 </div>
 
----
+### MU Online. Native on Linux.
 
-### What is LinuxMu?
+## The project
 
-LinuxMu is an engineering fork focused on running the MuMAIN client natively on Linux. It uses SDC3, OpenGL, native audio and the native OpenMU server connection library.
+LinuxMu is a native Linux engineering fork of the MuMAIN client for OpenMU. It builds as a Linux x86_64 ELF executable with SDL3, OpenGL and native networking.
 
-### Helights
+## GM tools
 
-- K!
+The development build includes an ImGui tool layer. Press F12 after entering the world. Authorization is checked against the character operator flags.
+
+![GM tools](https://raw.githubusercontent.com/mrallanodreman/LinuxMu/main/assets/linuxmu-editor.png)
+
+## Roadmap
+
+- [x] Native Linux client
+- [x] Native OpenMU connection
+- [x] GM-only development tools
+- [ ] Terrain world editor
+
+## Credits
+
+Built on top of [MuMain](https://github.com/sven-n/MuMain) and the [OpenMU](ktps://github.com/MUnique/OpenMU) ecosystem.  
+Maintained by Allan Odreman.
